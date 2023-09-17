@@ -1,5 +1,5 @@
 DOCKER_IMAGE_FILE=./docker/Dockerfile
-DOCKER_IMAGE_REPO=https://ghcr.io/Daithi333
+DOCKER_IMAGE_REPO=zghcr.io/daithi333
 DOCKER_IMAGE_NAME=template
 DOCKER_IMAGE_TAG=latest
 DOCKER_IMAGE_CONTEXT=.

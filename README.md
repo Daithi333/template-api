@@ -1,6 +1,6 @@
-# <<template api>>
+# Template api
 
-<<description>>
+Template API for getting started quick
 
 ### Local development
 

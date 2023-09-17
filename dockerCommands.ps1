@@ -13,7 +13,7 @@ function help {
 }
 
 function docker.build {
-    docker build -f $DOCKER_IMAGE_FILE -t "${DOCKER_IMAGE_REPO}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}" $DOCKER_IMAGE_CONTEXT
+    docker build -f ${DOCKER_IMAGE_FILE} -t "${DOCKER_IMAGE_REPO}/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}" ${DOCKER_IMAGE_CONTEXT}
 }
 
 function docker.shell {
